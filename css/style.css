@@ -59,6 +59,15 @@ a {
     background-image: url("images/background1.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    position: fixed;
+    height: 100vh;
+    z-index: 0;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    background-size: 100vw auto;
+    border: none;
+    font-family: 'Amatic SC', cursive;
 }
 
 
