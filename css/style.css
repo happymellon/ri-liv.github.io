@@ -97,6 +97,7 @@ a {
     list-style-type: none;
     user-select: none;
     font-family: 'Josefin Slab', serif;
+    margin-top: 0;
 }
 
 li.nav_left {
@@ -111,7 +112,7 @@ a.nav {
     display: block;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: 0.5em;
+    padding-top: 1em;
     text-decoration: none;
     color: white;
     text-shadow:
