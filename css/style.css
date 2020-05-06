@@ -178,6 +178,15 @@ a.nav {
     font-family: 'Amatic SC', cursive;
 }
 
+.post_content {
+    position: relative;
+    top: 80vh;
+    z-index: 1;
+    background-color: white;
+    padding-bottom: 5vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
 
 /* Stuff for the about page? :0 */
 
