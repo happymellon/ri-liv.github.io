@@ -37,6 +37,7 @@ a.nav {
     display: block;
     padding-left: 1em;
     padding-right: 1em;
+    padding-top: 0.5em;
     text-decoration: none;
     color: white;
     text-shadow:
