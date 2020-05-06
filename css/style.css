@@ -2,6 +2,47 @@
 The main css file :D
 *************************************************************************/
 
+/* General formatting stuff :D */
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    display: block;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 24pt;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 12pt;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.random-text {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.main_content {
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    left: 0;
+}
+
 /* The navigation and footer bar's css */
 #navigation_box {
     position: fixed;
@@ -82,43 +123,3 @@ a.nav {
     clear: both;
 }
 
-/* General formatting stuff :D */
-
-* {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-
-h1 {
-    display: block;
-    font-weight: normal;
-    letter-spacing: 1px;
-    margin: 0;
-    font-size: 24pt;
-    text-align: center;
-}
-
-h2 {
-    display: block;
-    font-weight: normal;
-    letter-spacing: 1px;
-    margin: 0;
-    font-size: 12pt;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.random-text {
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-
-.main_content {
-    position: fixed;
-    top: 3em;
-    right: 0;
-    left: 0;
-}
