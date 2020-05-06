@@ -21,17 +21,14 @@ The main css file :D
     right: 0;
     width: auto;
     height: 3rem;
+    list-style-type: none;
 }
 
+/*
 li {
     display: inline;
 }
-
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+*/
 
 li.nav_left {
     float: left;
