@@ -22,3 +22,23 @@ The main css file :D
     width: auto;
     height: 3rem;
 }
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.nav_left {
+    float: left;
+}
+
+li.nav_right {
+    float: right;
+}
+
+a.nav {
+    display: block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
