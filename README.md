@@ -20,3 +20,5 @@ https://stackedit.io/app# should be a good site to use... probably :').
 Because I don't feel like trying to install/use random stuff and I want to make it all from scratch (rather than having something generate it for me) (aka I am too lazy to do something that will lead to greater efficiency overall)!
 
 # If I'm a random person and I want to contribute, what do I do?
+If you're willing to dedicate some time every week, send us an email and we'll consider letting you join our team!
+Otherwise, if you only want to write a few posts occasionally, we welcome all guests posts!
