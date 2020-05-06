@@ -23,6 +23,10 @@ The main css file :D
     height: 3rem;
 }
 
+li {
+    display: inline;
+}
+
 ul.nav {
     list-style-type: none;
     margin: 0;
