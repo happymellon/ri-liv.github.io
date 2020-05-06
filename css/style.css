@@ -178,6 +178,31 @@ a.nav {
     font-family: 'Amatic SC', cursive;
 }
 
+.post_information {
+    width: 10vw;
+    padding-bottom: 5vh;
+}
+
+.post_title {
+    font-family: 'Amatic SC', serif;
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.post_author {
+    font-family: 'Amatic SC', serif;
+    font-size: 16pt;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.post_date {
+    font-family: 'Amatic SC', serif;
+    font-size: 16pt;
+    font-weight: 400;
+    float: right;
+}
+
 .post_content {
     position: relative;
     top: 80vh;
@@ -186,6 +211,7 @@ a.nav {
     padding-bottom: 5vh;
     padding-left: 15vw;
     padding-right: 15vw;
+    padding-top: 5vh;
 }
 
 /* Stuff for the about page? :0 */
