@@ -115,3 +115,10 @@ a {
     margin-left: 10vw;
     margin-right: 10vw;
 }
+
+.main_content {
+    position: fixed;
+    top: 3em;
+    right: 0;
+    left: 0;
+}
