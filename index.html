@@ -8,20 +8,29 @@
     <meta name="description" content="Talking about life, liberty, and the pursuit of... what?">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <linke href="css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
-    <div id="navigation-bar"> </div>
-    <script> $function(){ $("navigation-bar").load("navigation-bar.html"); }); </script>
-    
-    
-    
-    <div id="footer-spot"> </div>
-    <script> $function(){ $("footer-spot").load("footer.html"); }); </script>
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <div id="navigation-bar"></div>
+    <script> 
+        $(document).ready(function() { 
+            $("#navigation-bar").load("navigation-bar.html"); 
+        }); 
+    </script>
+    
+    <p>hi</p>
+    
+    <div id="footer-spot"></div>
+    <script> 
+        $(document).ready(function() { 
+            $("#footer-spot").load("footer.html"); 
+        }); 
+    </script>
+    
     <script src="js/script.js"></script>
 </body>
 

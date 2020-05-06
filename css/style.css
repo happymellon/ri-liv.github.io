@@ -1,3 +1,23 @@
 /*************************************************************************
 The main css file :D
 *************************************************************************/
+
+/* The navigation and footer bar's css */
+#navigation_box {
+    position: fixed;
+    color: transparent;
+    background-color: #fff;
+    font-size: 1em;
+    padding-top: 0em;
+    padding-right: 1em;
+    padding-bottom: 0em;
+    padding-left: 1em;
+    border-bottom: 1px solid #e6e6e6;
+    opacity: 0.95;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 3rem;
+}
