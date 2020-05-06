@@ -9,7 +9,7 @@ Ideally, you can just give me stuff you want to change and I'll write it :).
 # Uploading a new post
 If you want to make a new post: 
 You can copy the file called 'post_template.html'. 
-Scroll down until you see '<div class="post_content"> and start writing there!
+Scroll down until you see "< div class="post_content">" and start writing there!
 After that, please send me a message just being like "hey I wrote a new post on [some date]", and I'll update everything else on the website!
 
 Alternatively, you can just send me whatever you want to post and I'll do it all for you!

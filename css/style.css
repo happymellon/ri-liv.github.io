@@ -161,6 +161,24 @@ a.nav {
     font-family: 'Amatic SC', cursive;
 }
 
+/* STuff for the blogs */
+
+#blog-header {
+    position: fixed;
+    height: 70vh;
+    z-index: 0;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    background: url('/images/catto.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    font-family: 'Amatic SC', cursive;
+}
+
+
 /* Stuff for the about page? :0 */
 
 .left-column {
