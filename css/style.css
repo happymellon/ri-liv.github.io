@@ -47,11 +47,6 @@ a {
     color: black;
 }
 
-.random-text {
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-
 .main_content {
     position: absolute;
     top: 4rem;
@@ -176,6 +171,26 @@ a.nav {
     background-repeat: no-repeat;
     border: none;
     font-family: 'Amatic SC', cursive;
+}
+
+#blog-title {
+    font-size: 10vw; 
+    font-weight: 200; 
+    position: relative; 
+    top: 30vh; 
+    text-align: center; 
+    color: white; 
+    text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.6);
+}
+
+#blog-subtitle {
+    font-size: 2vw; 
+    font-weight: 150; 
+    position: relative; 
+    top: 30vh; 
+    text-align: center; 
+    color: white; 
+    text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.6);
 }
 
 .post_information {

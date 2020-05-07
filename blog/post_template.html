@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Relive</title>
+    <title>Post Template</title>
     <meta name="author" content="Victoria Li, Grace Xu, Shirley Jin">
     <meta name="description" content="Talking about life, liberty, and the pursuit of... what?">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +23,7 @@
 
 <body>
 
+    <!-- Loads the navigation bar at the top of the page from navigation-bar.html -->
     <div id="navigation-bar"></div>
     <script> 
         $(document).ready(function() { 
@@ -30,10 +31,24 @@
         }); 
     </script>
 
+    <!-- The top of the page, with the cat picture! -->
     <div id="blog-header">
-        <a href="/index.html"><h1 style="font-size: 10vw; font-weight: 200; position: relative; top: 30vh; text-align: center; color: white; text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.6);">Relive</h1></a>
-        <a href="/index.html"><h2 style="font-size: 2vw; font-weight: 150; position: relative; top: 30vh; text-align: center; color: white; text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.6);">Talking about life, liberty, and the pursuit of... what?</h2></a>
+        <a href="/index.html"><h1 id="blog-title">Relive</h1></a>
+        <a href="/index.html"><h2 id="blog-subtitle">Talking about life, liberty, and the pursuit of... what?</h2></a>
     </div>
+
+    <!-- Stuff actually in your blog post :) -->
+    <!-- Instructions: -->
+    <!-- After you put what you wrote into an HTML file, make a copy of this file and rename it "your_post_title.html" or something. -->
+    <!-- Replace "Tite" with the title of your blog post. -->
+    <!-- Replace "Author" with your name. -->
+    <!-- Replace "Date" with today's date. -->
+    <!-- Replace "lorem_ipsum.html" with the name of the html file you made. -->
+    <!-- E.g. "blender_learning_day_1_boxes.html" or something along those lines. -->
+    <!-- Instructions for the head: -->
+    <!-- Scroll up and replace "Post Template" (in the <title> element) with the name of your post-->
+    <!-- Write your name in the element that says "author" (e.g. replace "Victoria Li, Grace Xu, Shirley Jin" with your own name). -->
+    <!-- Write a short summary / the first paragraph or so in the "description" section. -->
     <div class="post_content">
     <div class="post_information">
         <div class="post_title">Title</div>
@@ -41,21 +56,17 @@
         <div class="post_date">Date</div>
     </div>
     <div class="clear"></div>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat magna id velit luctus, nec volutpat lectus finibus. Maecenas tincidunt velit vel nibh sollicitudin commodo. Vestibulum tincidunt, neque vitae pharetra molestie, odio leo porta lectus, tincidunt iaculis risus leo ut tortor. Aliquam bibendum libero a posuere cursus. Etiam ex mauris, dictum in urna dapibus, dapibus scelerisque tortor. Curabitur sit amet rhoncus leo. Aliquam quis nulla sit amet nulla vehicula luctus. Sed dignissim felis non ipsum aliquam, a volutpat nisi viverra. Nulla molestie auctor congue.
 
-Praesent nec lacinia risus. Mauris sed tempor eros, nec fermentum quam. Phasellus tellus neque, facilisis ut vestibulum varius, suscipit ut orci. Nam quis tellus ut turpis auctor sollicitudin sed condimentum lacus. Aliquam in risus vel lacus euismod consectetur vel in nisl. Maecenas elementum, lorem sed semper feugiat, felis ipsum pellentesque orci, vehicula volutpat tellus justo in nibh. Cras vitae mollis ligula, vitae vulputate nisi.
+    <div class="actual_content"></div>
+    <script>
+        $(document).ready(function() {
+            $("#actual_content").load("lorem_ipsum.html");
+        });
+    </script>
 
-Ut at mauris vel eros tempor commodo. In ex turpis, elementum sed laoreet ac, condimentum et ante. Integer volutpat justo magna, non viverra nisi bibendum eget. Praesent eu quam nisi. Duis mollis pellentesque consequat. Maecenas ultrices elementum tortor, nec gravida odio sagittis in. Vestibulum sodales auctor nibh, vitae egestas augue tempor a. Vestibulum vitae odio est. Proin nunc augue, viverra a imperdiet et, elementum eu velit.
-
-Pellentesque laoreet sapien sed lacus ultricies, id porta ipsum euismod. Praesent at dignissim dolor, sed tempus ante. Mauris volutpat accumsan neque id consequat. Suspendisse volutpat mi elit, vel placerat nisi hendrerit eget. Vestibulum elementum fermentum est eu tempus. Sed placerat, sem id posuere varius, sapien ex tempus leo, et porttitor augue lorem interdum nulla. Donec consectetur fringilla sem at volutpat. Quisque quis orci massa. Cras ac dignissim nulla. Mauris vulputate, orci luctus tempus dignissim, sapien tortor cursus nibh, sed semper magna odio et felis. Mauris malesuada lorem ac elit placerat consectetur. Nunc at volutpat sem. Aliquam dignissim lacus neque, non tristique urna lacinia eget.
-
-Nunc ultrices mauris eget enim tempus consequat. Praesent tempor sodales ex sed semper. Phasellus at lacus varius, placerat nisi vitae, sollicitudin mauris. Fusce cursus non urna nec tincidunt. Nullam a viverra mauris, commodo ullamcorper felis. Donec id sapien consectetur, rutrum quam eget, pellentesque urna. Suspendisse potenti.
     </div>
-    
-    <div id="hashover"></div>
-    <script type="text/javascript" src="/hashover/comments.php"></script>
-    <noscript>You must have JavaScript enabled to use the comments.</noscript>
 
+    <!-- The footer! -->
     <div id="footer-spot"></div>
     <script> 
         $(document).ready(function() { 

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Relive</title>
+    <title>Blog</title>
     <meta name="author" content="Victoria Li, Grace Xu, Shirley Jin">
     <meta name="description" content="Talking about life, liberty, and the pursuit of... what?">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,17 +22,36 @@
 </head>
 
 <body>
+
     <!-- Loads the navigation bar at the top of the page from navigation-bar.html -->
     <div id="navigation-bar"></div>
     <script> 
         $(document).ready(function() { 
-            $("#navigation-bar").load("navigation-bar.html"); 
+            $("#navigation-bar").load("/navigation-bar.html"); 
         }); 
     </script>
 
+    <!-- The top of the page, with the cat picture! -->
+    <div id="blog-header">
+        <a href="/index.html"><h1 id="blog-title">Relive</h1></a>
+        <a href="/index.html"><h2 id="blog-subtitle">Talking about life, liberty, and the pursuit of... what?</h2></a>
+    </div>
 
-    <div class="main_content"></div>
-    
+    <div class="post_content">
+        <h1>Posts</h1>
+
+        <div class="blog_post_list_element">
+            <div class="post_information">
+                <div class="post_title">Post_Template</div>
+                <div class="post_author">Victoria Li</div>
+                <div class="post_date">05/06/2020</div>
+                <div class="clear"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat magna id velit luctus, nec volutpat lectus finibus. Maecenas tincidunt velit vel nibh sollicitudin commodo. Vestibulum tincidunt, neque vitae pharetra molestie, odio leo porta lectus, tincidunt iaculis risus leo ut tortor. Aliquam bibendum libero a posuere cursus. Etiam ex mauris, dictum in urna dapibus, dapibus scelerisque tortor. Curabitur sit amet rhoncus leo. Aliquam quis nulla sit amet nulla vehicula luctus. Sed dignissim felis non ipsum aliquam, a volutpat nisi viverra. Nulla molestie auctor congue.</p>
+            </div>
+        </div>
+    </div>
+
+
     <!-- The footer! -->
     <div id="footer-spot"></div>
     <script> 
