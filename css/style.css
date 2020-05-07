@@ -181,9 +181,11 @@ a.nav {
     text-align: center; 
     color: white; 
     text-shadow: 1px 1px 1px rgba(51, 51, 51, 0.6);
+    user-select: none;
 }
 
 #blog-subtitle {
+    user-select: none;
     font-size: 2vw; 
     font-weight: 150; 
     position: relative; 
