@@ -52,13 +52,28 @@ Pellentesque laoreet sapien sed lacus ultricies, id porta ipsum euismod. Praesen
 Nunc ultrices mauris eget enim tempus consequat. Praesent tempor sodales ex sed semper. Phasellus at lacus varius, placerat nisi vitae, sollicitudin mauris. Fusce cursus non urna nec tincidunt. Nullam a viverra mauris, commodo ullamcorper felis. Donec id sapien consectetur, rutrum quam eget, pellentesque urna. Suspendisse potenti.
     </div>
     
-    <div class="comments-go-here">
-        To post a comment you need to sign in via<br>
-        <button class="schnack-signin-google"><i class="icon schnack-icon-google"></i> Google</button>        
-    </div>
-    <script src="https://ri-liv.github.io/embed.js"
-        data-schnack-slug="post_template"
-        data-schnack-target=".comments-go-here">
+    <div class="comments-go-here"></div>
+    <script src="http://ri-liv.github.io/client.js">
+        new Schnack({
+            target: '#comments-container',
+            slug: $(this).data('slug'),
+            host: 'https://comments.example.com',
+            partials: {
+              Preview: `Preview`,
+              Edit: `Edit`,
+              SendComment: `Send comment`,
+              Cancel: `Cancel`,
+              Or: ``,
+              Mute: `mute notifications`,
+              UnMute: `unmute`,
+              PostComment: `Post a comment. Markdown is supported!`,
+              AdminApproval: `This comment is still waiting for your approval`,
+              WaitingForApproval: `Your comment is still waiting for approval by the site owner`,
+              SignInVia: `To post a comment you need to sign in with one of these providers:`,
+              Reply: `<i class='icon schnack-icon-reply'></i> reply`,
+              LoginStatus: "(signed in as <span class='schnack-user'>@%USER%</span> :: <a class='schnack-signout' href='#'>sign out</a>)"
+            }
+        });
     </script>
 
 
