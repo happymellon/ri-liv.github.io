@@ -22,3 +22,15 @@ Because I don't feel like trying to install/use random stuff and I want to make 
 # If I'm a random person and I want to contribute, what do I do?
 If you're willing to dedicate some time every week, send us an email and we'll consider letting you join our team!
 Otherwise, if you only want to write a few posts occasionally, we welcome all guests posts!
+
+# To Do List
+  - Comments
+  - Main Blog Page
+  - Archive
+  - Search function
+  - Individual about pages for each author
+  - Work on FAQ
+  - Make the boxes on the main page actually link to something lmao
+  - Add a footer
+  - ~~Make a logo~~ 
+    - This can be the blue bird :D
