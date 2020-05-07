@@ -22,6 +22,7 @@ body {
 div, p {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    font-size: 12pt;
 }
 
 h1 {
@@ -50,8 +51,8 @@ a {
 .main_content {
     position: absolute;
     top: 4rem;
-    right: 10vw;
-    left: 10vw;
+    right: 15vw;
+    left: 15vw;
 }
 
 /* Image stuff! */
@@ -275,4 +276,24 @@ a.nav {
     margin-left: 3%;
     margin-right: 3%;
     padding: 1%;
+}
+
+/* Spoiler tags in text! */
+
+.spoiler {
+    background-color: #ffd5d9;
+    color: #fa1720;
+    cursor: pointer;
+    padding: 2vh;
+    width: auto;
+    border: none;
+    text-align: center;
+    outline: none;
+    opacity: 50%;
+    border-radius: 1vw;
+}
+
+.spoiler:hover {
+    background-color:#fa1720;
+    color: white; 
 }
