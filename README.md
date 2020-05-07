@@ -32,5 +32,30 @@ Otherwise, if you only want to write a few posts occasionally, we welcome all gu
   - Work on FAQ
   - Make the boxes on the main page actually link to something lmao
   - Add a footer
-  - ~~Make a logo~~ 
-    - This can be the blue bird :D
+  - Comment and refine code 
+  # Done
+  - Make a logo
+    - Blue bird
+  - Index/main page
+    - Added parallax
+    - Added "most popular" section
+    - Added "new posts" section
+  - About page
+    - Added a section with each of us
+      - There is a placeholder image
+  - post_template
+    - Info box (title, author, date)
+    - actual content area
+  - 404 page
+    - Added link to home page (if you're too blind to read the navigation bar) + bg
+  - Misc.
+    - blue scrollbar :D
+    - navigation bar
+    
+# Website Directory
+- https://ri-liv.github.io (alternatively, https://ri-liv.github.io/index.html
+- https://ri-liv.github.io/about.html
+- https://ri-liv.github.io/blog.html (WIP)
+  - https://ri-liv.github.io/blog/post_template.html 
+- https://ri-liv.github.io/template.html
+- https://ri-liv.github.io/404.html
