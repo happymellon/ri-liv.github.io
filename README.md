@@ -32,9 +32,10 @@ Otherwise, if you only want to write a few posts occasionally, we welcome all gu
   - Work on FAQ
   - Make the boxes on the main page actually link to something lmao
   - Add a footer
+  - Comment and refine code 
   # Done
-  - ~~Make a logo~~ 
-    - This can be the blue bird :D
+  - Make a logo
+    - Blue bird
   - Index/main page
     - Added parallax
     - Added "most popular" section
